@@ -1,0 +1,105 @@
+@media(max-width:768px){
+    #navbar{
+    display:block;
+    text-align:center;
+    }
+  }
+  body {
+    font-family: 'Google Sans', sans-serif;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  #logo {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h1{  
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  .sub-heading {
+    font-family: 'Google Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+  
+  #navbar {
+    background-color: #f5f5f5;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .nav-link {
+    display: block;
+    padding: 8px 0;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  li > a {
+    color: #1b1b32;
+    text-decoration: none;
+  }
+  
+  #main-doc {
+    margin-left: 300px;
+    padding: 20px;
+    overflow-y: auto;
+    height: 100vh;
+    flex-grow: 1;
+  }
+  
+  #navbar header {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .main-section {
+    display: flex;
+    flex-direction:column;
+    margin: 20px;
+  }
+  
+  .main-section header{
+    font-family: 'Roboto', sans-serif; /* Ensure the same font-family */
+    font-weight: 500; /* Ensure the same font-weight */
+    font-size:30px;
+  }
+  
+  .box-link{
+  display:inline-block;
+  padding:10px 20px;
+  margin:10px;
+  color:#ffffff;
+  background:linear-gradient(to bottom,#4facfe 85%,#00f2fe 100%);
+  box-shadow:0 4px 8px rgba(0,0,0,0.2);
+  text-decoration:none;
+  border-radius:5px;
+  border:1px solid #007bff;
+  
+  }
+  
+  .box-link:hover{
+    background:linear-gradient(to bottom,#00f2fe,#4facfe);
+    box-shadow:
+  }
+  
